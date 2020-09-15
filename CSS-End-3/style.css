@@ -1,0 +1,40 @@
+.navlinks a{
+    position: absolute; 
+    right: -180px; 
+    padding:20px; 
+    width: 200px; 
+    font-size: 16px; 
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.link-blog {
+    background-color: #e17b77; 
+    top: 100px;  
+}
+.link-twitter {
+    background-color: #00aced;
+    top: 160px;
+}
+.link-linkedin{
+    background-color: #007bb6;
+    top: 220px;
+}
+.link-facebook {
+    background-color: #3b5998;
+    top: 280px;
+}
+.link-github{
+    background-color: #333;
+    top: 340px;
+}
+
+
+a:hover{
+    right: 0; 
+    text-decoration: underline;
+}
